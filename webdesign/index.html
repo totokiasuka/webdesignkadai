@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Single Column Web Page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="wrap">
+	<header>
+		<h1>Portfolio</h1>
+
+		<input type="checkbox" id="navBtn">
+        <label for="navBtn" class="open"><span></span></label>
+
+        <label for="navBtn" class="open"></label>
+
+		<nav>
+			<ul>
+				<li><a href="#home">HOME</a></li>
+				<li><a href="#gallery">GALLERY</a></li>
+				<li><a href="#favoritte">FAVORITTE</a></li>
+				<li><a href="#about">ABOUT</a></li>
+			</ul>
+		</nav>
+		<picture>
+			<source media="(max-width: 1024px)" srcset="images/mikki-s.jpg">
+			<source media="(min-width: 768px)" srcset="images/mikki-.jpg">
+			<img src="images/mikki-.jpg" alt="メインビジュアル">
+		  </picture>
+	</header>
+
+	<main>
+		<section class="sec01">
+			<a name="home"></a>
+			<h2>HOME 自己紹介</h2>
+			<br>
+			<li><a href="images/maru.png" data-lightbox="icon" data-titele="アイコン"><img src="images/maru.png" width="200" height="200" alt=""></a>
+			</li>
+			<p><br>十時明日香と書いてとときあすかと読みます<br>絵を描くことが好きで二次創作を主に描いています</p>
+		</section>
+
+		<section class="sec02">
+			<a name="gallery"></a>
+			<h2>GALLERY 今までの作品たち</h2>
+			<p>いろいろ描いたりしています</p>
+		</section>
+
+		<section class="sec03">
+			<div class="container">
+				<li><a herf="images/ai.jpg" data-lightbox="image" data-title="キャプション"><img src="images/ai.jpg" alt=""></a>
+				</li>
+		        <li><a herf="images/botan.jpg" data-lightbox="image" data-title="キャプション"><img src="images/botan.jpg" alt=""></a>
+				</li>
+				<li><a herf="images/hurina.jpg" data-lightbox="image" data-title="キャプション"><img src="images/hurina.jpg" alt=""></a>
+				</li>
+				</div>
+		</section>
+
+		<section class="sec04">
+			<a name="favoritte"></a>
+			<h2>FAVORITTE すきなもの</h2>
+		</section>
+
+		<section class="sec06">
+			<div class="container">
+				<li><a herf="images/nikitukasa.jpg" data-lightbox="image" data-title="キャプション"><img src="images/nikitukasa.jpg" alt=""></a>
+				</li>
+		        <li><a herf="images/hutariitaba.jpg" data-lightbox="image" data-title="キャプション"><img src="images/hutariitaba.jpg" alt=""></a>
+				</li>
+				<li><a herf="images/mojityurosu.jpg" data-lightbox="image" data-title="キャプション"><img src="images/mojityurosu.jpg" alt=""></a>
+				</li>
+				<li><a herf="images/nuihutonn.jpg" data-lightbox="image" data-title="キャプション"><img src="images/nuihutonn.jpg" alt=""></a>
+				</li>
+				<li><a herf="images/cafe.jpg" data-lightbox="image" data-title="キャプション"><img src="images/cafe.jpg" alt=""></a>
+				</li>
+				<li><a herf="images/korea.jpg" data-lightbox="image" data-title="キャプション"><img src="images/korea.jpg" alt=""></a>
+				</li>
+			</div>
+		</section>
+
+		<section class="sec05">
+			<a name="about"></a>
+			<h2>ABOUT 連絡先など</h2>
+			<p>email：k23as601@st.kyusan-u.ac.jp</p>
+			<p><a herf="https://www.instagram.com/a_cha1118/" target="_blank" rel="noopener">instagram</a>
+		    </p>
+		</section>
+	</main>
+
+	<footer>
+		<p>© portfolio </p>
+		<br>
+		<a name="#home">HOME</a>
+		<a name="#gallery">GALLERY</a>
+		<a name="#favoritte">FAVORITTE</a>
+		<a name="#about">ABOUT</a>
+	</footer>
+</div>
+</body>
+
+</html>
